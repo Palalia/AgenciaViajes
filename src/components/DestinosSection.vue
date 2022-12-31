@@ -1,56 +1,73 @@
-<template>
-  <div>
+<template >
+<v-app>
   <v-sheet
     class="mx-auto"
-    elevation="8"
-    max-width="800"
+    elevation="1"
+    max-width="1500"
+    max-height="1500"
   >
     <v-slide-group
       v-model="model"
       class="pa-4"
-      active-class="success"
+      mandatory
       show-arrows
     >
-      <v-slide-item
-        v-for="n in 15"
-        :key="n"
-        v-slot="{ active, toggle }"
+      <v-slide-item>
+      <v-card
+        class="mx-auto"
+        max-width="500"
       >
-        <v-card
-          :color="active ? undefined : 'grey lighten-1'"
-          class="ma-4"
-          height="200"
-          width="100"
-          @click="toggle"
-        >
-          <v-row
-            class="fill-height"
-            align="center"
-            justify="center"
-          >
-            <v-scale-transition>
-              <v-icon
-                v-if="active"
-                color="white"
-                size="48"
-                v-text="'mdi-close-circle-outline'"
-              ></v-icon>
-            </v-scale-transition>
-          </v-row>
-        </v-card>
+    <v-img
+      src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+      height="200px"
+    ></v-img>
+
+    <v-card-title>
+      Top western road trips
+    </v-card-title>
+
+    <v-card-subtitle>
+      1,000 miles of wonder
+    </v-card-subtitle>
+
+    <v-card-actions>
+      <v-btn
+        color="orange lighten-2"
+        text
+      >
+        Explore
+      </v-btn>
+
+      <v-spacer></v-spacer>
+
+      <v-btn
+        icon
+        @click="show = !show"
+      >
+        <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+      </v-btn>
+    </v-card-actions>
+    
+    <v-expand-transition>
+      <div v-show="show1">
+        <v-divider></v-divider>
+        <v-card-text>
+          I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+        </v-card-text>
+      </div>
+    </v-expand-transition>
+  </v-card>
       </v-slide-item>
     </v-slide-group>
   </v-sheet>
-</div>
+  </v-app>
 </template>
 <script>
-import Vuetify from 'vuetify'
-import '../../node_modules/vuetify/dist/vuetify.min.css'
-
   export default {
-    vuetify: new Vuetify(),
     data: () => ({
       model: null,
+      show:false,
+      show1:false,
     }),
   }
 </script>

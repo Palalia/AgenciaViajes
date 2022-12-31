@@ -8,7 +8,9 @@ import barraNavegacion from './components/barraNavegacion';
 
 export default {
   name: 'App',
-
+  data: () => ({
+    //
+  }),
   components: {
     barraNavegacion,
   }
