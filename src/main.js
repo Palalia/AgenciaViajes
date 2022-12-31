@@ -7,9 +7,12 @@ import { faMapLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faHeadset } from '@fortawesome/free-solid-svg-icons'
 import { faHandHoldingDollar } from '@fortawesome/free-solid-svg-icons'
 import { faBusinessTime } from '@fortawesome/free-solid-svg-icons'
+
 /*
  */
-import {faPlaneSlash} from '@fortawesome/free-solid-svg-icons'
+import {faPlaneSlash} from '@fortawesome/free-solid-svg-icons';
+import $ from 'jquery';
+import vuetify from './plugins/vuetify';
 library.add(
   faMapLocationDot,
   faHeadset,
@@ -22,5 +25,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  $,
+  vuetify,
+  render: h => h(App)
 }).$mount('#app')

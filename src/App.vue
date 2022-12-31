@@ -1,15 +1,16 @@
 <template>
-      <InicioSection/>
+  
+    <div><barraNavegacion/></div>
+  
 </template>
-
 <script>
-import InicioSection from './components/InicioSection.vue'
+import barraNavegacion from './components/barraNavegacion';
 
 export default {
   name: 'App',
 
   components: {
-    InicioSection
+    barraNavegacion,
   }
-}
+};
 </script>
