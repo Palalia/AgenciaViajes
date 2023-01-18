@@ -51,11 +51,16 @@
               </v-col>
               <v-col>
                 <v-carousel v-model="model">
-                  <v-carousel-item v-for="(color, i) in colors" :key="color">
-                    <v-sheet :color="color" height="100%" tile>
+                  <v-carousel-item v-for="img in imgs" :key="img">
+                    <v-sheet height="100%" tile>
                       <v-row class="fill-height" align="center" justify="center">
                         <div class="text-h2">
-                        Slide {{ i + 1 }}
+                        Slide {{ img }}
+                        <v-img
+                             :src="require(img)"
+                             width="575"
+                             height="450"
+                             ></v-img>
                         </div>
                       </v-row>
                     </v-sheet>
@@ -69,16 +74,35 @@
     </v-layout>
 </template>
 <script>
+import axios from 'axios'
 export default({
+
   props:['title'],
   data () {
     return {
       dialog: false,
       notifications: false,
       sound: true,
-      widgets: false
+      widgets: false,
+      imgs:[]
     }
   },
+  mounted(){
+    var imgaxios=[];
+    axios({
+      method:"GET",
+      url:"http://localhost:3000/getImgs",
+    }).then(res=>{
+      imgaxios=res.data; 
+      var tam=imgaxios.length;
+      console.log(tam);
+      for(let i=0;i<tam;i++){
+        this.imgs[i]="/public/assets/img/Turquia/"+imgaxios[i];
+        console.log(i);
+      }
+    });
+   
+  }
 });
 
 </script>
