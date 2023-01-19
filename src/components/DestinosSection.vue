@@ -1,7 +1,7 @@
 <template>
-  <div >
-     <v-app >
-        <v-content class="mt-15 pt-15">
+  <div class="mt-2 pt-2">
+     <v-app class="mt-3 pt-3 mb-25 wow fadeInUp">
+        <v-content class="mt-16 pt-16">
            <v-container>
               <v-sheet
                  max-width="1500"

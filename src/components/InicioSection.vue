@@ -12,11 +12,12 @@
         <div class="row align-items-center justify-content-center justify-content-lg-between">
           <div class="col-lg-6 col-md-10">
             <div class="header-hero-content">
-              <h1 class="header-title wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.2s"><span>La vida es un viaje</span> y en falcon viajes lo sabemos </h1>
-              <p class="text wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.4s">Poner tu viaje en nuestras manos garantiza:</p>
-              
-              <ul>
-                <li><font-awesome-icon icon="fa-solid fa-plane-slash" size="2x"/> Reducir riesgos y contratiempos</li>
+              <h1 class="header-title wow fadeInLeftBig mt-5 pt-5" data-wow-duration="3s" data-wow-delay="0.2s"><span>Descubre el mundo con </span> falcon viajes.</h1>
+              <p class="text wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.4s">Con falcon viajes, obtienes las herramientas que necesitas para llevar tu travesia al siguiente nivel</p>
+              <br/> 
+              <ul class="text wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.3s">
+              <h4 >Poner tu aventura en las manos de nuestros expertos garantiza:</h4>
+                <li ><font-awesome-icon icon="fa-solid fa-plane-slash" size="2x"/> Reducir riesgos y contratiempos</li>
                 <li><font-awesome-icon icon="fa-solid fa-map-location-dot" size="2x"/> Diversidad de destinos </li>
                 <li><font-awesome-icon icon="fa-solid fa-headset" size="2x"/> Asesoria personal</li>
                 <li><font-awesome-icon icon="fa-solid fa-hand-holding-dollar" size="2x"/> Costos competitivos</li>
