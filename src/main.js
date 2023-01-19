@@ -8,14 +8,23 @@ import { faHeadset } from '@fortawesome/free-solid-svg-icons'
 import { faHandHoldingDollar } from '@fortawesome/free-solid-svg-icons'
 import { faBusinessTime } from '@fortawesome/free-solid-svg-icons'
 import {faPlaneSlash} from '@fortawesome/free-solid-svg-icons'
+import {faWhatsapp} from "@fortawesome/free-brands-svg-icons"
+import {faPhoneVolume} from '@fortawesome/free-solid-svg-icons'
+import {faHouseFlag} from '@fortawesome/free-solid-svg-icons'
+import {faInstagram} from "@fortawesome/free-brands-svg-icons"
+import {faFacebook} from "@fortawesome/free-brands-svg-icons"
 Vue.config.productionTip=false;
 library.add(
   faMapLocationDot,
   faHeadset,
   faHandHoldingDollar,
   faBusinessTime,
-  faPlaneSlash);
-
+  faPlaneSlash,
+  faWhatsapp,
+  faPhoneVolume,
+  faHouseFlag,
+  faInstagram,
+  faFacebook);
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 new Vue({

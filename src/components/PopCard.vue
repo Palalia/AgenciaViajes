@@ -20,7 +20,8 @@
             <v-subheader>Descripcion</v-subheader>
             <v-list-tile avatar>
               <v-list-tile-content>
-                <v-list-tile-title><p>Salida para contemplar el espectacular panorama del Cuerno de Oro desde la colina de Pierre Loti; visita de la Catedral de San Jorge, principal patriarcado de la Iglesia Ortodoxa Griega y sede del Patriarcado Ecuménico de Constantinopla, reconocido como el líder espiritual de los cristianos ortodoxos del mundo; continuamos a la Mezquita de Solimán El Magnífico, diseñada por el arquitecto otomano Mimar Sinan y que cuenta con la cúpula más grande de todas las mezquitas en Estambul; nos dirigimos al Bazar de las Especias, un lugar con encanto especial por su colorido y aromas, el sitio por excelencia para adquirir tés, hierbas, frutos secos, dulces típicos y por supuesto especias; culminamos con un recorrido a través del Bósforo, el estrecho que divide la ciudad entre Europa y Asia, apreciaremos las maravillosas vistas de las fortalezas otomanas, palacios, villas y los puentes que conectan ambos lados de esta urbe.</p></v-list-tile-title>
+                <v-card-text><p>Salida para contemplar el espectacular panorama del Cuerno de Oro desde la colina de Pierre Loti; visita de la Catedral de San Jorge, principal patriarcado de la Iglesia Ortodoxa Griega y sede del Patriarcado Ecuménico de Constantinopla, reconocido como el líder espiritual de los cristianos ortodoxos del mundo; continuamos a la Mezquita de Solimán El Magnífico, diseñada por el arquitecto otomano Mimar Sinan y que cuenta con la cúpula más grande de todas las mezquitas en Estambul; nos dirigimos al Bazar de las Especias, un lugar con encanto especial por su colorido y aromas, el sitio por excelencia para adquirir tés, hierbas, frutos secos, dulces típicos y por supuesto especias; culminamos con un recorrido a través del Bósforo, el estrecho que divide la ciudad entre Europa y Asia, apreciaremos las maravillosas vistas de las fortalezas otomanas, palacios, villas y los puentes que conectan ambos lados de esta urbe.
+                </p></v-card-text>
               </v-list-tile-content>
             </v-list-tile>
           </v-list>
@@ -55,11 +56,8 @@
                     <v-sheet height="100%" tile>
                       <v-row class="fill-height" align="center" justify="center">
                         <div class="text-h2">
-                        Slide {{ img }}
                         <v-img
-                             :src="require(img)"
-                             width="575"
-                             height="450"
+                             :src="img"
                              ></v-img>
                         </div>
                       </v-row>
@@ -97,7 +95,7 @@ export default({
       var tam=imgaxios.length;
       console.log(tam);
       for(let i=0;i<tam;i++){
-        this.imgs[i]="/public/assets/img/Turquia/"+imgaxios[i];
+        this.imgs[i]="assets/img/Turquia/"+imgaxios[i];
         console.log(i);
       }
     });
