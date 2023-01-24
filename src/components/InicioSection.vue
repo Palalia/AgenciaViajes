@@ -1,8 +1,7 @@
 <template>
     <!--https://www.zarla.com/images/zarla-escpate-1x1-2400x2400-20210603-pdgb4mmp4ghqyfwxm437.png?crop=1:1,smart&width=250&dpr=2-->
     <div class="header-hero" data-scroll-index="0">
-      <!---- home star ------>
-      <div class="shape shape-1"></div>
+      <!---- home star ------>    
       <div class="shape shape-2"></div>
       <div class="shape shape-3"></div>
       <div class="shape shape-4"></div>
@@ -30,10 +29,16 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="header-image">
-              <img src="https://www.zarla.com/images/zarla-escpate-1x1-2400x2400-20210603-pdgb4mmp4ghqyfwxm437.png?crop=1:1,smart&width=250&dpr=2" height="500" alt="" class="image-1  wow fadeInRightBig"
+          <div class="col-lg-6 col-md-6">
+            <div class="  header-image">
+              <div class="row">
+              <img src="\assets\img\header\header.png" height="500" alt="" class="col-lg-6 image-1  wow fadeInRightBig "
                 data-wow-duration="3s" data-wow-delay="0.5s">
+                <img src="\assets\img\header\header2.png" height="500" alt="" class=" col-lg-6  image-1  wow fadeInRightBig"
+                data-wow-duration="3s" data-wow-delay="0.5s">
+                <img src="\assets\img\header\header3.jpg" height="500" alt="" class="col-lg-6  image-1  wow fadeInRightBig"
+                data-wow-duration="3s" data-wow-delay="0.5s">
+              </div>  
             </div>
           </div>
         </div>
@@ -41,7 +46,6 @@
       <div class="container">
         <div class="header-shape-1"></div>
         <div class="header-shape-2">
-          <img src="assets/img/header/header-shape-2.svg" alt="">
         </div>
       </div>
     </div>

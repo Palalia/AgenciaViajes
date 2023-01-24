@@ -297,7 +297,7 @@ span {
 
 .navbar {
     position: relative;
-    padding: 20px 0;
+    padding: 5px 0;
 }
 
 
@@ -336,7 +336,7 @@ span {
     position: relative;
     padding: 10px 0;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 800;
     color: #38424d;
 }
 
@@ -518,7 +518,8 @@ span {
     right: 0;
     width: 50%;
     height: 100%;
-    background-image: url(../img/header/header-shape-1.svg);
+    opacity: 0.5;
+    background-image: url(../img/header/header-shape-1.png);
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
