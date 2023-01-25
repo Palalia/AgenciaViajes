@@ -9,7 +9,7 @@
       <div class="shape shape-6"></div>
       <div class="container">
         <div class="row align-items-center justify-content-center justify-content-lg-between">
-          <div class="col-lg-6 col-md-10">
+          <div class="col-lg-6 col-md-10 mt-5">
             <div class="header-hero-content">
               <h1 class="header-title wow fadeInLeftBig mt-5 pt-5" data-wow-duration="3s" data-wow-delay="0.2s"><span>Descubre el mundo con </span> falcon viajes.</h1>
               <p class="text wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.4s">Con falcon viajes, obtienes las herramientas que necesitas para llevar tu travesia al siguiente nivel</p>
@@ -30,15 +30,15 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-6">
-            <div class="  header-image">
-              <div class="row">
-              <img src="\assets\img\header\header.png" height="500" alt="" class="col-lg-6 image-1  wow fadeInRightBig "
+            <div class="header-image">
+            
+                <img src="\assets\img\header\header.png"  alt="" class="col-lg-6 image-1  wow fadeInRightBig "
                 data-wow-duration="3s" data-wow-delay="0.5s">
-                <img src="\assets\img\header\header2.png" height="500" alt="" class=" col-lg-6  image-1  wow fadeInRightBig"
+                <img src="\assets\img\header\header2.png" style="width:40%;" class=" col-lg-6  image-1  wow fadeInRightBig"
                 data-wow-duration="3s" data-wow-delay="0.5s">
-                <img src="\assets\img\header\header3.jpg" height="500" alt="" class="col-lg-6  image-1  wow fadeInRightBig"
+                <img src="\assets\img\header\header3.jpg" alt="" class="col-lg-6  image-1  wow fadeInRightBig"
                 data-wow-duration="3s" data-wow-delay="0.5s">
-              </div>  
+             
             </div>
           </div>
         </div>

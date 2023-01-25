@@ -501,10 +501,13 @@ span {
 
 .header-image {
     position: relative;
-    padding-top: 80px;
+    padding-top: 100px;
     animation: bounceTop-1 3s ease infinite;
 }
-
+.header-image img{
+    border-radius: 40px;
+    width: 30%;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
     .header-image img {
@@ -1096,4 +1099,7 @@ span {
 }
 .title-blue{
     color:#0a6789;
+}
+::-webkit-scrollbar {
+    display: none;
 }
