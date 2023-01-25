@@ -27,7 +27,7 @@
                     <a class="nav-link" data-scroll-nav="3" href="#" @click="switchComponent(3)">contacto</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" data-scroll-nav="4" href="#">Pricing</a>
+                    <a class="nav-link" data-scroll-nav="4" href="#" @click="switchComponent(4)">Preguntas</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" data-scroll-nav="6" href="#">Download</a>
@@ -48,6 +48,7 @@
 import DestinosSection from './DestinosSection';
 import InicioSection from './InicioSection';
 import ContactoSection from './ContactoSection';
+import PreguntasSection from './PreguntasSection';
 export default {
   name: 'App',
   data(){
@@ -65,6 +66,8 @@ export default {
                 return this.nombrecomponente= DestinosSection;
             case 3:
               return this.nombrecomponente=ContactoSection;
+            case 4:
+              return this.nombrecomponente=PreguntasSection;  
         }
     },
   }
