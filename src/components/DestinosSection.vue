@@ -1,4 +1,5 @@
 <template>
+ <section id="destinos">
   <div class="mt-2 pt-2">
      <v-app class="mt-3 pt-3 mb-25 wow fadeInUp">
         <v-content class="mt-16 pt-16">
@@ -196,6 +197,7 @@
         </v-content>
      </v-app>
   </div>
+</section>
 </template>
 <script>
 import PopCard from './PopCard.vue';  

@@ -21,9 +21,11 @@
     "jquery": "^3.6.3",
     "morgan": "^1.10.0",
     "owl.carousel": "^2.3.4",
+    "scrollit": "^1.0.5",
     "swiper": "^8.4.5",
     "vue": "^2.6.14",
     "vue-owl-carousel": "^2.0.3",
+    "vue-scrollto": "^2.20.0",
     "vuetify": "^2.6.13"
   },
   "devDependencies": {

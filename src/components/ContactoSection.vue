@@ -1,5 +1,5 @@
 <template>
-<section class="feature-section pt-80" data-scroll-index="1">
+<section class="feature-section pt-80"  id="contacto">
     <div class="container pt-5">
       <div class="row justify-content-center pt-5">
         <div class="col-xl-6 col-lg-7 ">

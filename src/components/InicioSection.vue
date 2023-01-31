@@ -1,6 +1,7 @@
 <template>
+  
     <!--https://www.zarla.com/images/zarla-escpate-1x1-2400x2400-20210603-pdgb4mmp4ghqyfwxm437.png?crop=1:1,smart&width=250&dpr=2-->
-    <div class="header-hero" data-scroll-index="0">
+    <div class="header-hero"  data-spy="scroll" id="inicio">
       <!---- home star ------>    
       <div class="shape shape-2"></div>
       <div class="shape shape-3"></div>

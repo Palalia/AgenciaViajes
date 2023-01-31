@@ -1,5 +1,5 @@
 <template>    
- <section class="faq-section pt-120" data-scroll-index="5">
+ <section class="faq-section pt-120"  id="preguntas">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-6 col-lg-7">

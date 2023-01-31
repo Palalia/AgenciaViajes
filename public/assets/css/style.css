@@ -1099,10 +1099,10 @@ span {
 }
 .title-blue{
     color:#0a6789;
-}
+}/*
 ::-webkit-scrollbar {
     display: none;
-}
+}*/
 .faq-image img{
     border-radius: 80px;
 }

@@ -13,6 +13,7 @@ import {faPhoneVolume} from '@fortawesome/free-solid-svg-icons'
 import {faHouseFlag} from '@fortawesome/free-solid-svg-icons'
 import {faInstagram} from "@fortawesome/free-brands-svg-icons"
 import {faFacebook} from "@fortawesome/free-brands-svg-icons"
+
 Vue.config.productionTip=false;
 library.add(
   faMapLocationDot,
@@ -26,8 +27,12 @@ library.add(
   faInstagram,
   faFacebook);
 Vue.component('font-awesome-icon', FontAwesomeIcon)
-
+const VueScrollTo = require('vue-scrollto')
+const VueScrollit = require('scrollit')
+Vue.use(VueScrollTo)
 new Vue({
   vuetify,
+  VueScrollTo,
+  VueScrollit,
   render: h => h(App)
 }).$mount('#app')
